@@ -1,0 +1,319 @@
+/** COLORS USED **/
+/* Blue #003864 */
+/* Dark Blue #072237 */
+/* Black #000000 */
+/* White #ffffff */
+
+/* FONTS */
+/* font-family: 'Domine', serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
+
+@import url('https://fonts.googleapis.com/css?family=Domine:400,700|Open+Sans:400,700');
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    background-color: #f2f2f2; 
+}
+
+.container {
+    margin: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+p {
+    text-align: left;
+    font-family: 'Domine', serif;
+}
+
+em {
+    font-style: italic;
+    font-size: 85%;
+}
+
+.logo {
+    margin: 30px 0 0px 0;
+}
+
+nav ul li a {
+    border: solid 3px #072237;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: #003864;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+.mast-head h2 {
+    color: black;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.mast-head img {
+    border-bottom: solid 10px #072237;
+    border-top: solid 10px #072237;
+}
+
+.logo a {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2.75rem;
+}
+
+header i {
+    color: #003864;
+}
+
+header i:hover,
+header a:hover {
+    opacity: 0.75;
+}
+
+footer,
+footer p {
+    text-align: center;
+}
+
+.cite {
+    font-style: italic;
+    font-size: 65%;
+}
+
+footer a {
+    color: #003864;
+    margin: 0 5px 5px 5px;
+}
+
+footer a:hover {
+    opacity: 0.75;
+}
+
+.socials {
+    margin-bottom: 10px;
+}
+
+.content figcaption,
+.portfolio h3{
+    text-align: center;
+}
+
+.content {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 35rem) {
+    
+    body {
+        text-align: center;
+        line-height: 1.6;
+        font-size: 0.75rem;
+    }
+    
+    nav {
+        margin-bottom: 20px;
+    }
+    
+    nav ul li {
+        margin-bottom: 10px;
+    }
+    
+    .projects figcaption {
+        margin: 10px 0 30px 0;
+    }
+    
+    .home h3 {
+        margin: 10px 0;
+    }
+    
+    .home hr {
+        margin: 30px 0;
+    }
+    
+    section figcaption {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    
+    header {
+        margin-bottom: 0px;
+    }
+    
+    h3 {
+        font-size: 1.35rem;
+        font-weight: 700;
+    }
+    
+    .mast-head h2 {
+        display: none;
+    }
+    
+    .content {
+        margin-top: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 35rem) and (max-width: 80rem) {
+    
+    body { 
+        text-align: center;
+        line-height: 1.6;
+        font-size: 1rem;
+    }
+    
+    nav {
+        margin-bottom: 100px;
+    }
+    
+    nav ul li:first-child {
+        margin-right: 2%;
+    }
+    
+    nav ul li {
+        float: left;
+        width: 49%;
+    }
+    
+    .home section figure {
+        width: 40%;
+        float: left;
+        margin-right: 40px;
+        margin-bottom: 7px;
+    }
+    
+    .about-article {
+        width: 100%;
+    }
+    
+    .projects {
+        width: 50%;
+        padding: 20px;
+        float: left;
+    }
+    
+    .home h3 {
+        margin: 10px 0 20px 0;
+    }
+    
+    .home hr {
+        margin: 30px 0;
+    }
+    
+    .home figcaption,
+    .portfolio figcaption {
+        margin-top: 7px;
+        margin-bottom: 25px;
+    }
+    
+    .mast-head h2 {
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 80rem) {
+    
+    body {
+        text-align: left;
+        line-height: 1.6;
+        font-size: 1.25rem;
+        padding: 20px
+    }
+    
+    .container {
+        max-width: 80rem;
+        margin: 0 auto;
+    }
+    
+    .home section figure {
+        width: 40%;
+        float: left;
+    }
+    
+    .about-article {
+        width: 60%;
+        float: left;
+    }
+    
+    .projects {
+        width: 33%;
+        padding: 20px;
+        padding-bottom: 5px;
+        float: left;
+    }
+    
+    .logo {
+        display: inline-block;
+        float: left;
+        margin-top: 0;
+        margin-left: 30px;
+    }
+    
+    nav {
+        display: inline-block;
+        float: right;
+        margin-left: 50px;
+    }
+    
+    nav ul li {
+        width: 200px;
+        float: left;
+        margin-right: 30px;
+    }
+    
+    .home h3 {
+        margin: 30px 0;
+    }
+    
+    .home hr {
+        margin: 40px 0;
+    }
+    
+    .home figcaption,
+    .portfolio figcaption {
+        margin-top: 7px;
+        margin-bottom: 25px;
+    }
+    
+    h2 {
+        display: block;
+        width: 100%;
+        float: left;
+    }
+    
+}

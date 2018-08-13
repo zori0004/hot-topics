@@ -1,0 +1,34 @@
+{
+    "catalog": [
+        {
+            "img": "../img/animation.jpg",
+            "alt": "Premier Pro Screen",
+            "fig": "Animation"
+        },
+        {
+            "img": "../img/graphic-design.jpg",
+            "alt": "Graphic Design Letters",
+            "fig": "Grahpic Design"
+        },
+        {
+            "img": "../img/photography.jpg",
+            "alt": "Camera",
+            "fig": "Photography"
+        },
+        {
+            "img": "../img/web-design.jpg",
+            "alt": "Web Design",
+            "fig": "Web Design"
+        },
+        {
+            "img": "../img/video.jpg",
+            "alt": "Video Camera",
+            "fig": "Video Production"
+        },
+        {
+            "img": "../img/paint.jpg",
+            "alt": "Paint Brush",
+            "fig": "Paintings"
+        }
+    ]
+}
