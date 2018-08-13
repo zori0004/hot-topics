@@ -1,7 +1,7 @@
 const homeContainer = document.querySelector(".home-content");
 let homeUrl = "../partials/articles.json";
 
-function articles() {
+
     fetch(homeUrl)
         .then(function (response) {
             return response.json();
@@ -24,6 +24,3 @@ function articles() {
         .catch(function (error) {
             console.log(error.message);
         });
-}
-
-window.onload = articles;
