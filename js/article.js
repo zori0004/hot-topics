@@ -2,7 +2,7 @@ const homeContainer = document.querySelector(".home-content");
 let homeUrl = "./hot-topics/partials/article.json";
 
 function articles() {
-    fetch("homeUrl")
+    fetch(homeUrl)
         .then(function (response) {
             return response.json();
         })
