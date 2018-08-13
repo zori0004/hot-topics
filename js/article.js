@@ -1,5 +1,5 @@
 const homeContainer = document.querySelector(".home-content");
-let homeUrl = "/hot-topic/partials/article.json";
+let homeUrl = "/hot-topics/partials/article.json";
 
 function articles() {
     fetch(homeUrl)
