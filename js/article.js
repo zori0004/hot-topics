@@ -1,8 +1,8 @@
 const homeContainer = document.querySelector(".home-content");
-let homeUrl = "https://zori0004.github.io/hot-topics/partials/article.json";
+let homeUrl = "./hot-topics/partials/article.json";
 
 function articles() {
-    fetch("https://zori0004.github.io/hot-topics/partials/article.json")
+    fetch("homeUrl")
         .then(function (response) {
             return response.json();
         })
