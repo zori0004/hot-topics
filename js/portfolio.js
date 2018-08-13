@@ -1,5 +1,5 @@
 const container = document.querySelector(".content");
-let url = "./hot-topics/partials/portfolio.json";
+let url = "/hot-topics/partials/portfolio.json";
 
 function projects() {
     fetch(url)
