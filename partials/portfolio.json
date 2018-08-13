@@ -1,32 +1,32 @@
 {
     "catalog": [
         {
-            "img": "../img/animation.jpg",
+            "img": "/hot-topics/img/animation.jpg",
             "alt": "Premier Pro Screen",
             "fig": "Animation"
         },
         {
-            "img": "../img/graphic-design.jpg",
+            "img": "/hot-topics/img/graphic-design.jpg",
             "alt": "Graphic Design Letters",
             "fig": "Grahpic Design"
         },
         {
-            "img": "../img/photography.jpg",
+            "img": "/hot-topics/img/photography.jpg",
             "alt": "Camera",
             "fig": "Photography"
         },
         {
-            "img": "../img/web-design.jpg",
+            "img": "/hot-topics/img/web-design.jpg",
             "alt": "Web Design",
             "fig": "Web Design"
         },
         {
-            "img": "../img/video.jpg",
+            "img": "/hot-topics/img/video.jpg",
             "alt": "Video Camera",
             "fig": "Video Production"
         },
         {
-            "img": "../img/paint.jpg",
+            "img": "/hot-topics/img/paint.jpg",
             "alt": "Paint Brush",
             "fig": "Paintings"
         }
